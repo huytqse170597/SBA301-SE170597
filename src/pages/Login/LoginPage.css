@@ -1,0 +1,66 @@
+.login-page {
+  background: url("../../assets/login-background.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+}
+
+:root {
+  --latte-primary: #c19a6b;
+  --latte-secondary: #b08968;
+  --latte-text: #86653b;
+  --latte-rgba: 193, 154, 107;
+}
+
+.login-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-control {
+  background-color: transparent !important;
+  color: var(--latte-primary) !important;
+  border-color: white !important;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(var(--latte-rgba), 0.25);
+  border-color: var(--latte-primary) !important;
+}
+
+.form-control::placeholder {
+  color: var(--latte-text) !important;
+}
+
+.btn-primary {
+  background-color: var(--latte-primary) !important;
+  border-color: var(--latte-primary) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--latte-secondary) !important;
+  border-color: var(--latte-secondary) !important;
+}
+
+.form-check-input:checked {
+  background-color: var(--latte-primary) !important;
+  border-color: var(--latte-primary) !important;
+}
+
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(var(--latte-rgba), 0.25);
+  border-color: var(--latte-primary) !important;
+}
+
+.text-latte {
+  color: var(--latte-text);
+}
+.text-latte-500 {
+  color: var(--latte-primary);
+}
+
+.text-latte-500:hover {
+  color: var(--latte-secondary);
+}
