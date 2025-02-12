@@ -31,7 +31,6 @@ const LoginPage = () => {
                   className="bg-transparent text-latte border-black rounded-5"
                 />
                 <FaLock className="position-absolute end-0 top-50 translate-middle-y me-3 text-latte" />
-                <i className="fas fa-lock position-absolute end-0 top-50 translate-middle-y me-3 text-latte"></i>
               </div>
             </Form.Group>
 
@@ -39,7 +38,7 @@ const LoginPage = () => {
               <Col>
                 <FormCheck
                   type="checkbox"
-                  label="Remember me"
+                  label="Remember me" 
                   className="text-latte"
                 />
               </Col>
@@ -60,7 +59,7 @@ const LoginPage = () => {
             <p className="text-center text-latte mt-3">
               Don't have an account?{" "}
               <a
-                href="#register"
+                href="/register"
                 className="text-latte-500 text-decoration-none"
               >
                 Register
